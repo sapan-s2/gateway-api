@@ -1,0 +1,23 @@
+info:
+  component: Simple Zuul Proxy Server
+
+
+eureka:
+  client:
+    registerWithEureka: false
+    service-url:
+      defaultzone:  https://eureka-service.herokuapp.com/eureka
+#  instance:
+#      metadata-map:
+#           instanceid: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+spring:
+  application:
+    name: gateway-api
+
+
+
+
+
+
+
+
